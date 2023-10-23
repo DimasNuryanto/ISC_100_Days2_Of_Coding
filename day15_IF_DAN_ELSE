@@ -1,0 +1,22 @@
+package harike2;
+
+import java.util.Scanner;
+
+public class day15 {
+    public static void main(String[] args) {
+        int nilai;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Masukkan umur Anda :");
+        nilai = input.nextInt();
+
+        if (nilai >= 50) {
+            System.out.println("ANDA SANGAT TUA");
+        } else if (nilai >= 35) {
+            System.out.println("ANDA TUA");
+        } else if (nilai >= 25) {
+            System.out.println("ANDA MUDA");
+        } else {
+            System.out.println("ANDA ANAK-ANAK");
+        }
+    }
+}
