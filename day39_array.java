@@ -1,3 +1,4 @@
+package harike2;
 import java.util.Scanner;
 
 public class day39_array {
