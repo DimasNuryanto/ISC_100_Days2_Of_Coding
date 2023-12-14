@@ -1,6 +1,6 @@
 package contoh;
 import java.util.Scanner;
-public class day62 {
+public class day66 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
